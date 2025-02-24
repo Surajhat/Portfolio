@@ -6,7 +6,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-white dark:bg-gray-800 shadow-lg">
-      <div className="w-full mx-auto px-4">
+      <div className="w-full mx-auto px-4 pr-1">
         <div className="w-full flex justify-between h-16">
           <div className="flex space-x-8 items-center">
             <Link
@@ -50,7 +50,7 @@ const Navbar = () => {
           </div>
           <button
             onClick={toggleTheme}
-            className="p-2 rounded-lg bg-gray-200 dark:bg-gray-700"
+            className="p-0 rounded-lg bg-transparent"
           >
             {theme === 'dark' ? '🌞' : '🌙'}
           </button>
