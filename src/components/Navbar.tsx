@@ -6,8 +6,8 @@ const Navbar = () => {
 
   return (
     <nav className="bg-white dark:bg-gray-800 shadow-lg">
-      <div className="max-w-7xl mx-auto px-4">
-        <div className="flex justify-between h-16">
+      <div className="w-full mx-auto px-4">
+        <div className="w-full flex justify-between h-16">
           <div className="flex space-x-8 items-center">
             <Link
               to="/"
